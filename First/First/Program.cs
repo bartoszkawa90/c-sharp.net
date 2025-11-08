@@ -45,10 +45,17 @@ namespace First
 
     class StorageClass
     {
-        private int _ids = 0;
-        public StorageClass() {}
-        public int GetId() { return this._ids; }
-        public void SetId(int ids) { this._ids = ids; }
+        public static int sid = 1;
+        public int Sid;
+
+        public StorageClass()
+        {
+            // Initialize storage
+            this.Sid = sid;
+            sid++;
+        }
+        public int GetId() { return this.Sid; }
+        public void SetId(int ids) { this.Sid = ids; }
     }
 
 
@@ -102,6 +109,7 @@ namespace First
             StorageClass storage = new StorageClass();
             CommandLinePrinter printer = new CommandLinePrinter("    ", ref storage);
             List<Item> records = new List<Item>();
+            Console.WriteLine($"storage.Sid = {storage.Sid}");
             // Start main loop
             while (true)
             {
@@ -114,7 +122,7 @@ namespace First
                 {
                     printer.PrintList(records);
                 }
-                
+
                 // collect input
                 Console.WriteLine("\n\n");
                 Console.WriteLine("***** @ ***** \n" +
@@ -131,7 +139,7 @@ namespace First
                 {
                     Console.WriteLine("Wrong action passed");
                 }
-                
+
                 StorageClass recordStorage = new StorageClass();
                 switch (substrings[0])
                 {
@@ -155,7 +163,7 @@ namespace First
                     case "delete":
                         Console.WriteLine("Deleting new item");
                         records.RemoveAll(p => p.GetId() == int.Parse(substrings[1]));
-                    break;
+                        break;
                     default:
                         Console.WriteLine("Wrong option was passed");
                         break;

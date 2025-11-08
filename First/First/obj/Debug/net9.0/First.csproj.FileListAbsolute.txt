@@ -1,0 +1,15 @@
+/Users/bartoszkawa/Desktop/REPOS/GitHub/c-sharp.net/First/First/bin/Debug/net9.0/First
+/Users/bartoszkawa/Desktop/REPOS/GitHub/c-sharp.net/First/First/bin/Debug/net9.0/First.deps.json
+/Users/bartoszkawa/Desktop/REPOS/GitHub/c-sharp.net/First/First/bin/Debug/net9.0/First.runtimeconfig.json
+/Users/bartoszkawa/Desktop/REPOS/GitHub/c-sharp.net/First/First/bin/Debug/net9.0/First.dll
+/Users/bartoszkawa/Desktop/REPOS/GitHub/c-sharp.net/First/First/bin/Debug/net9.0/First.pdb
+/Users/bartoszkawa/Desktop/REPOS/GitHub/c-sharp.net/First/First/obj/Debug/net9.0/First.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bartoszkawa/Desktop/REPOS/GitHub/c-sharp.net/First/First/obj/Debug/net9.0/First.AssemblyInfoInputs.cache
+/Users/bartoszkawa/Desktop/REPOS/GitHub/c-sharp.net/First/First/obj/Debug/net9.0/First.AssemblyInfo.cs
+/Users/bartoszkawa/Desktop/REPOS/GitHub/c-sharp.net/First/First/obj/Debug/net9.0/First.csproj.CoreCompileInputs.cache
+/Users/bartoszkawa/Desktop/REPOS/GitHub/c-sharp.net/First/First/obj/Debug/net9.0/First.dll
+/Users/bartoszkawa/Desktop/REPOS/GitHub/c-sharp.net/First/First/obj/Debug/net9.0/refint/First.dll
+/Users/bartoszkawa/Desktop/REPOS/GitHub/c-sharp.net/First/First/obj/Debug/net9.0/First.pdb
+/Users/bartoszkawa/Desktop/REPOS/GitHub/c-sharp.net/First/First/obj/Debug/net9.0/First.genruntimeconfig.cache
+/Users/bartoszkawa/Desktop/REPOS/GitHub/c-sharp.net/First/First/obj/Debug/net9.0/ref/First.dll
+/Users/bartoszkawa/Desktop/REPOS/GitHub/c-sharp.net/First/First/obj/Debug/net9.0/First.sourcelink.json
