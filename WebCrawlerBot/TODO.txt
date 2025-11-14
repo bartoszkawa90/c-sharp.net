@@ -1,0 +1,1 @@
+#TODO Projekt powinien sie opierac o RestSharp do requestow  i AngleSharp do parsowania HTML
